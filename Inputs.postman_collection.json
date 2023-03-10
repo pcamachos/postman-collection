@@ -1,0 +1,767 @@
+{
+	"info": {
+		"_postman_id": "54b8378b-f850-4f4f-9e67-00b9061af61c",
+		"name": "Inputs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "check rabbit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jornaya_lead_id\": \"500894AE-1229-CC45-AB94-62F0DAF220EE\",\n    \"tcpa_text\": \"También es una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquiera\",\n    \"height_ft\": \"test height\",\n    \"height_inch\": \"test inch\",\n    \"weight\": \"test test test weight\",\n    \"current_insurance_policy\": \"21 century\",\n    \"current_expiration_policy\": \"2022-01-01\",\n    \"current_insured_since\": \"2022-01-02\",\n    \"msclid\": \"1\",\n    \"gclid\": \"1\",\n    \"source_id\": \"fiorella\",\n    \"landing_page\": \"\",\n    \"first_name\": \"test f\",\n    \"last_name\": \"lead\",\n    \"email\": \"pcamacho@spartanapproach.com\",\n    \"primary_phone\": \"7728888892\",\n    \"secondary_phone\": \"\",\n    \"address_1\": \"855 Madison Ave\",\n    \"city\": \"new york\",\n    \"state\": \"Florida\",\n    \"zip_code\": \"10101\",\n    \"health_priority_code\": \"\",\n    \"language_preference\": \"\",\n    \"us_citizen_or_legal_permanent_resident\": \"Yes\",\n    \"birthdate\": \"1987-03-18\",\n    \"marital_status\": \"Married\",\n    \"gender\": \"f\",\n    \"health_have_coverage\": \"Yes\",\n    \"health_employment_status\": \"Self-Employed\",\n    \"health_individual_income\": 0,\n    \"health_total_household_income\": 0,\n    \"number_of_dependent_children_in_house\": 1,\n    \"spouse_first_name\": \"nicole\",\n    \"spouse_last_name\": \"test\",\n    \"spouse_dob\": \"1987-05-08\",\n    \"spouse_gender\": \"f\",\n    \"child_1_name\": \"luke\",\n    \"child_1_last_name\": \"tester\",\n    \"child_1_dob\": \"2002-05-06\",\n    \"child_1_gender\": \"m\",\n    \"child_2_name\": \"john\",\n    \"child_2_last_name\": \"tester\",\n    \"child_2_dob\": \"\",\n    \"child_2_gender\": \"m\",\n    \"child_3_name\": \"tester\",\n    \"child_3_last_name\": \"tester\",\n    \"child_3_dob\": \"1989-06-08\",\n    \"child_3_gender\": \"m\",\n    \"child_4_name\": \"jane\",\n    \"child_4_last_name\": \"tester\",\n    \"child_4_dob\": \"1991-01-01\",\n    \"child_4_gender\": \"f\",\n    \"date_created\": \"2014-10-10\",\n    \"lead_cost\": \"0.00\",\n    \"lead_portal_id\": \"123456\",\n    \"created_by\": \"boberdoo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://devlb1.spartanapproach.com/inputs/?created_by=cypress&lead_type=health&org=fiorella&lead_type_field_name=lead_type&lead_status_field_name=health_lead_status&lead_status_details_field_name=health_lead_status_details&lead_status_details_option_active=active%20hours&lead_status_details_option_after=after%20hours&health_lead_status=new&autosec=true&sms_invalid_check=false&check_rabbit=true",
+					"protocol": "https",
+					"host": [
+						"devlb1",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": "created_by",
+							"value": "cypress"
+						},
+						{
+							"key": "lead_type",
+							"value": "health"
+						},
+						{
+							"key": "org",
+							"value": "fiorella"
+						},
+						{
+							"key": "lead_type_field_name",
+							"value": "lead_type"
+						},
+						{
+							"key": "lead_status_field_name",
+							"value": "health_lead_status"
+						},
+						{
+							"key": "lead_status_details_field_name",
+							"value": "health_lead_status_details"
+						},
+						{
+							"key": "lead_status_details_option_active",
+							"value": "active%20hours"
+						},
+						{
+							"key": "lead_status_details_option_after",
+							"value": "after%20hours"
+						},
+						{
+							"key": "health_lead_status",
+							"value": "new"
+						},
+						{
+							"key": "autosec",
+							"value": "true"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "check_rabbit",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "new input pear Email afterhours",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \n    \"msclid\": \"1\",\n    \"lead_type\": [\"umbrella\"],\n    \"policy_type\": \"umbrella\",\n    \"gclid\": \"1\",\n    \"source_id\": \"apnpis_o65\",\n    \"landing_page\": \"\",\n    \"first_name\": \"lead active hours\",\n    \"last_name\": \"lead\",\n    \"email\": \"pcamacho@spartanapproach.com\",\n    \"primary_phone\": \"7863866079\",\n    \"secondary_phone\": \"\",\n    \"address_1\": \"855 Madison Ave\",\n    \"city\": \"new york\",\n    \"state\": \"florida\",\n    \"zip_code\": \"10101\",\n    \"health_priority_code\": \"\",\n    \"language_preference\": \"\",\n    \"us_citizen_or_legal_permanent_resident\": \"Yes\",\n    \"birthdate\": \"1987-03-18\",\n    \"marital_status\": \"Married\",\n    \"gender\": \"f\",\n    \"health_have_coverage\": \"Yes\",\n    \"health_employment_status\": \"Self-Employed\",\n    \"health_individual_income\": 0,\n    \"health_total_household_income\": 0,\n    \"number_of_dependent_children_in_house\": 1,\n    \"spouse_first_name\": \"nicole\",\n    \"spouse_last_name\": \"test\",\n    \"spouse_dob\": \"1987-05-08\",\n    \"spouse_gender\": \"f\",\n    \"child_1_name\": \"luke\",\n    \"child_1_last_name\": \"tester\",\n    \"child_1_dob\": \"2002-05-06\",\n    \"child_1_gender\": \"m\",\n    \"child_2_name\": \"john\",\n    \"child_2_last_name\": \"tester\",\n    \"child_2_dob\": \"\",\n    \"child_2_gender\": \"m\",\n    \"child_3_name\": \"tester\",\n    \"child_3_last_name\": \"tester\",\n    \"child_3_dob\": \"1989-06-08\",\n    \"child_3_gender\": \"m\",\n    \"child_4_name\": \"jane\",\n    \"child_4_last_name\": \"tester\",\n    \"child_4_dob\": \"1991-01-01\",\n    \"child_4_gender\": \"f\",\n    \"date_created\": \"2014-10-10\",\n    \"lead_cost\": \"0.00\",\n    \"lead_portal_id\": \"123456\",\n    \"created_by\": \"boberdoo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://devlb1.spartanapproach.com/inputs/emailafterhours/?org=fiorella-oos",
+					"protocol": "https",
+					"host": [
+						"devlb1",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						"emailafterhours",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "fiorella-oos"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input fiorella",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"msclid\": \"1\",\n    \"gclid\": \"1\",\n    \"source_id\": \"majo_1\",\n    \"landing_page\": \"\",\n    \"first_name\": \"test\",\n    \"last_name\": \"lead\",\n    \"email\": \"pcamacho@spartanapproach.com\",\n    \"primary_phone\": \"7863866079\",\n    \"secondary_phone\": \"\",\n    \"address_1\": \"855 Madison Ave\",\n    \"city\": \"new york\",\n    \"state\": \"georgia\",\n    \"zip_code\": \"10101\",\n    \"health_priority_code\": \"\",\n    \"language_preference\": \"\",\n    \"us_citizen_or_legal_permanent_resident\": \"Yes\",\n    \"birthdate\": \"1987-03-18\",\n    \"marital_status\": \"Married\",\n    \"gender\": \"f\",\n    \"health_have_coverage\": \"Yes\",\n    \"health_employment_status\": \"Self-Employed\",\n    \"health_individual_income\": 0,\n    \"health_total_household_income\": 0,\n    \"number_of_dependent_children_in_house\": 1,\n    \"spouse_first_name\": \"nicole\",\n    \"spouse_last_name\": \"test\",\n    \"spouse_dob\": \"1987-05-08\",\n    \"spouse_gender\": \"f\",\n    \"child_1_name\": \"luke\",\n    \"child_1_last_name\": \"tester\",\n    \"child_1_dob\": \"2002-05-06\",\n    \"child_1_gender\": \"m\",\n    \"child_2_name\": \"john\",\n    \"child_2_last_name\": \"tester\",\n    \"child_2_dob\": \"\",\n    \"child_2_gender\": \"m\",\n    \"child_3_name\": \"tester\",\n    \"child_3_last_name\": \"tester\",\n    \"child_3_dob\": \"1989-06-08\",\n    \"child_3_gender\": \"m\",\n    \"child_4_name\": \"jane\",\n    \"child_4_last_name\": \"tester\",\n    \"child_4_dob\": \"1991-01-01\",\n    \"child_4_gender\": \"f\",\n    \"date_created\": \"2014-10-10\",\n    \"lead_cost\": \"0.00\",\n    \"lead_portal_id\": \"123456\",\n    \"created_by\": \"boberdoo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/inputs/?&org=fiorella&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "fiorella"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input demo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"msclid\": \"1\",\n    \"gclid\": \"1\",\n    \"source_id\": \"majo_1\",\n    \"landing_page\": \"\",\n    \"first_name\": \"test\",\n    \"last_name\": \"lead\",\n    \"email\": \"pcamacho@spartanapproach.com\",\n    \"primary_phone\": \"7863866079\",\n    \"secondary_phone\": \"\",\n    \"address_1\": \"855 Madison Ave\",\n    \"city\": \"new york\",\n    \"state\": \"georgia\",\n    \"county\": \"null\",\n    \"zip_code\": \"10101\",\n    \"health_priority_code\": \"\",\n    \"language_preference\": \"\",\n    \"us_citizen_or_legal_permanent_resident\": \"Yes\",\n    \"birthdate\": \"1987-03-18\",\n    \"marital_status\": \"Married\",\n    \"gender\": \"f\",\n    \"health_have_coverage\": \"Yes\",\n    \"health_employment_status\": \"Self-Employed\",\n    \"health_individual_income\": 0,\n    \"health_total_household_income\": 0,\n    \"number_of_dependent_children_in_house\": 1,\n    \"spouse_first_name\": \"nicole\",\n    \"spouse_last_name\": \"test\",\n    \"spouse_dob\": \"1987-05-08\",\n    \"spouse_gender\": \"f\",\n    \"child_1_name\": \"luke\",\n    \"child_1_last_name\": \"tester\",\n    \"child_1_dob\": \"2002-05-06\",\n    \"child_1_gender\": \"m\",\n    \"child_2_name\": \"john\",\n    \"child_2_last_name\": \"tester\",\n    \"child_2_dob\": \"\",\n    \"child_2_gender\": \"m\",\n    \"child_3_name\": \"tester\",\n    \"child_3_last_name\": \"tester\",\n    \"child_3_dob\": \"1989-06-08\",\n    \"child_3_gender\": \"m\",\n    \"child_4_name\": \"jane\",\n    \"child_4_last_name\": \"tester\",\n    \"child_4_dob\": \"1991-01-01\",\n    \"child_4_gender\": \"f\",\n    \"date_created\": \"2014-10-10\",\n    \"lead_cost\": \"0.00\",\n    \"lead_portal_id\": \"123456\",\n    \"created_by\": \"leadlab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.development.spartanapproach.com/inputs/?&org=demo&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"development",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "demo"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input fiorella-oos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"msclid\": \"1\",\n    \"gclid\": \"1\",\n    \"source_id\": \"majo_1\",\n    \"landing_page\": \"\",\n    \"first_name\": \"lead made for query 2\",\n    \"last_name\": \"lead\",\n    \"email\": \"pcamacho@spartanapproach.com\",\n    \"primary_phone\": \"7723033921\",\n    \"secondary_phone\": \"\",\n    \"address_1\": \"855 Madison Ave\",\n    \"city\": \"arizona\",\n    \"state\": \"arizona\",\n    \"zip_code\": \"10101\",\n    \"health_priority_code\": \"\",\n    \"language_preference\": \"\",\n    \"us_citizen_or_legal_permanent_resident\": \"Yes\",\n    \"birthdate\": \"1987-03-18\",\n    \"marital_status\": \"Married\",\n    \"gender\": \"f\",\n    \"health_have_coverage\": \"Yes\",\n    \"health_employment_status\": \"Self-Employed\",\n    \"health_individual_income\": 0,\n    \"health_total_household_income\": 0,\n    \"number_of_dependent_children_in_house\": 1,\n    \"spouse_first_name\": \"nicole\",\n    \"spouse_last_name\": \"test\",\n    \"spouse_dob\": \"1987-05-08\",\n    \"spouse_gender\": \"f\",\n    \"child_1_name\": \"luke\",\n    \"child_1_last_name\": \"tester\",\n    \"child_1_dob\": \"2002-05-06\",\n    \"child_1_gender\": \"m\",\n    \"child_2_name\": \"john\",\n    \"child_2_last_name\": \"tester\",\n    \"child_2_dob\": \"\",\n    \"child_2_gender\": \"m\",\n    \"child_3_name\": \"tester\",\n    \"child_3_last_name\": \"tester\",\n    \"child_3_dob\": \"1989-06-08\",\n    \"child_3_gender\": \"m\",\n    \"child_4_name\": \"jane\",\n    \"child_4_last_name\": \"tester\",\n    \"child_4_dob\": \"1991-01-01\",\n    \"child_4_gender\": \"f\",\n    \"date_created\": \"2014-10-10\",\n    \"lead_cost\": \"0.00\",\n    \"lead_portal_id\": \"123456\",\n    \"created_by\": \"boberdoo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/inputs/?&org=fiorella-oos&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "fiorella-oos"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input lookout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"msclid\": \"1\",\n    \"gclid\": \"1\",\n    \"source_id\": \"majo_1\",\n    \"landing_page\": \"\",\n    \"first_name\": \"lead made for query 2\",\n    \"last_name\": \"lead\",\n    \"email\": \"pcamacho@spartanapproach.com\",\n    \"primary_phone\": \"7723033921\",\n    \"secondary_phone\": \"\",\n    \"address_1\": \"855 Madison Ave\",\n    \"city\": \"new york\",\n    \"state\": \"georgia\",\n    \"zip_code\": \"10101\",\n    \"health_priority_code\": \"\",\n    \"language_preference\": \"\",\n    \"us_citizen_or_legal_permanent_resident\": \"Yes\",\n    \"birthdate\": \"1987-03-18\",\n    \"marital_status\": \"Married\",\n    \"gender\": \"f\",\n    \"health_have_coverage\": \"Yes\",\n    \"health_employment_status\": \"Self-Employed\",\n    \"health_individual_income\": 0,\n    \"health_total_household_income\": 0,\n    \"number_of_dependent_children_in_house\": 1,\n    \"spouse_first_name\": \"nicole\",\n    \"spouse_last_name\": \"test\",\n    \"spouse_dob\": \"1987-05-08\",\n    \"spouse_gender\": \"f\",\n    \"child_1_name\": \"luke\",\n    \"child_1_last_name\": \"tester\",\n    \"child_1_dob\": \"2002-05-06\",\n    \"child_1_gender\": \"m\",\n    \"child_2_name\": \"john\",\n    \"child_2_last_name\": \"tester\",\n    \"child_2_dob\": \"\",\n    \"child_2_gender\": \"m\",\n    \"child_3_name\": \"tester\",\n    \"child_3_last_name\": \"tester\",\n    \"child_3_dob\": \"1989-06-08\",\n    \"child_3_gender\": \"m\",\n    \"child_4_name\": \"jane\",\n    \"child_4_last_name\": \"tester\",\n    \"child_4_dob\": \"1991-01-01\",\n    \"child_4_gender\": \"f\",\n    \"date_created\": \"2014-10-10\",\n    \"lead_cost\": \"0.00\",\n    \"lead_portal_id\": \"123456\",\n    \"created_by\": \"leadlab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/inputs/?&org=lookout&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "lookout"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input univista",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"msclid\": \"1\",\n    \"gclid\": \"1\",\n    \"source_id\": \"majo_1\",\n    \"landing_page\": \"\",\n    \"first_name\": \"lead made for query 2\",\n    \"last_name\": \"lead\",\n    \"email\": \"pcamacho@spartanapproach.com\",\n    \"primary_phone\": \"7723033921\",\n    \"secondary_phone\": \"\",\n    \"address_1\": \"855 Madison Ave\",\n    \"city\": \"new york\",\n    \"state\": \"georgia\",\n    \"zip_code\": \"10101\",\n    \"health_priority_code\": \"\",\n    \"language_preference\": \"\",\n    \"us_citizen_or_legal_permanent_resident\": \"Yes\",\n    \"birthdate\": \"1987-03-18\",\n    \"marital_status\": \"Married\",\n    \"gender\": \"f\",\n    \"health_have_coverage\": \"Yes\",\n    \"health_employment_status\": \"Self-Employed\",\n    \"health_individual_income\": 0,\n    \"health_total_household_income\": 0,\n    \"number_of_dependent_children_in_house\": 1,\n    \"spouse_first_name\": \"nicole\",\n    \"spouse_last_name\": \"test\",\n    \"spouse_dob\": \"1987-05-08\",\n    \"spouse_gender\": \"f\",\n    \"child_1_name\": \"luke\",\n    \"child_1_last_name\": \"tester\",\n    \"child_1_dob\": \"2002-05-06\",\n    \"child_1_gender\": \"m\",\n    \"child_2_name\": \"john\",\n    \"child_2_last_name\": \"tester\",\n    \"child_2_dob\": \"\",\n    \"child_2_gender\": \"m\",\n    \"child_3_name\": \"tester\",\n    \"child_3_last_name\": \"tester\",\n    \"child_3_dob\": \"1989-06-08\",\n    \"child_3_gender\": \"m\",\n    \"child_4_name\": \"jane\",\n    \"child_4_last_name\": \"tester\",\n    \"child_4_dob\": \"1991-01-01\",\n    \"child_4_gender\": \"f\",\n    \"date_created\": \"2014-10-10\",\n    \"lead_cost\": \"0.00\",\n    \"lead_portal_id\": \"123456\",\n    \"created_by\": \"boberdoo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/inputs/?&org=univista&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "univista"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input pbc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_source\": \"lead portal\",\n    \"owner_1_first_name\": \"test pbc\",\n    \"owner_1_last_name\": \"lead\",\n    \"physical_address\": \"new york\",\n    \"city\": \"brimfield\",\n    \"state\": \"New York\",\n    \"zip_code\": \"10101\",\n    \"owner_1_cell_phone\": \"7863866079\",\n    \"business_telephone\": \"\",\n    \"email\": \"pcamacho@spartanapproach.com\",\n    \"corporate_name\": \"sparta\",\n    \"federal_tax_id\": \"86-1419144\",\n    \"date_business_started\": \"1999\",\n    \"avg_monthly_sales\": 20000,\n    \"requested_advance_amount\": 20000,\n    \"credit_score\": 0,\n    \"owner_1_home_address\": \"1 testing dr\",\n    \"owner_1_city\": \"city\",\n    \"owner_1_state\": \"Florida\",\n    \"owner_1_zip\": \"34957\",\n    \"sic_code\": \"123456789\",\n    \"lead_cost\": null,\n    \"lead_portal_id\": \"123456\",\n    \"created_by\": \"boberdoo\",\n    \"lead_type\": \"mca\",\n    \"lead_status\": \"new\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/inputs/?created_by=cypress&lead_type=mca&org=progressive-business-capital&sms_invalid_check=false&autosec=true",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": "created_by",
+							"value": "cypress"
+						},
+						{
+							"key": "lead_type",
+							"value": "mca"
+						},
+						{
+							"key": "org",
+							"value": "progressive-business-capital"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input demo mexico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"first_name\": \"jose\",\n    \"last_name\": \"hernandez\",\n    \"email\": \"jhernandez@spartanapproach.com\",\n    \"primary_phone\": \"5549352778\",\n    \"created_by\": \"leadlab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.development.spartanapproach.com/inputs/?&org=demo&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"development",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "demo"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input demo mexico - alan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"first_name\": \"alan\",\n    \"last_name\": \"guerrero\",\n    \"email\": \"aguerreros@grupoasis.com.mx\",\n    \"primary_phone\": \"5519904125\",\n    \"created_by\": \"leadlab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.development.spartanapproach.com/inputs/?&org=demo&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"development",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "demo"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input demo mexico edgar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"first_name\": \"edgar\",\n    \"last_name\": \"salgado\",\n    \"email\": \"pcamacho@spartanapproach.com\",\n    \"primary_phone\": \"3331058672\",\n    \"created_by\": \"leadlab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.development.spartanapproach.com/inputs/?&org=demo&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"development",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "demo"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input demo mexico - ricardo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"first_name\": \"ricardo\",\n    \"last_name\": \"vargas\",\n    \"email\": \"rvargas@grupoasis.com.mx\",\n    \"primary_phone\": \"5543265985\",\n    \"created_by\": \"leadlab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.development.spartanapproach.com/inputs/?&org=demo&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"development",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "demo"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input demo mexico - david",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"first_name\": \"david\",\n    \"last_name\": \"salinas\",\n    \"email\": \"dsalinas@grupoasis.com.mx\",\n    \"primary_phone\": \"5534308901\",\n    \"created_by\": \"leadlab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.development.spartanapproach.com/inputs/?&org=demo&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"development",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "demo"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input demo mexico - silvia",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"first_name\": \"silvia\",\n    \"last_name\": \"sanchez\",\n    \"email\": \"ssanchez@grupoasis.com.mx\",\n    \"primary_phone\": \"5513091010\",\n    \"created_by\": \"leadlab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.development.spartanapproach.com/inputs/?&org=demo&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"development",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "demo"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "input demo mexico - marco",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"lead_type\": [\"health\"],\n    \"policy_type\": \"health\",\n    \"first_name\": \"marco\",\n    \"last_name\": \"garcia\",\n    \"email\": \"mgarcia@grupoasis.com.mx\",\n    \"primary_phone\": \"5555039455\",\n    \"created_by\": \"leadlab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.development.spartanapproach.com/inputs/?&org=demo&sms_invalid_check=false&autosec=false",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"development",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"inputs",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "org",
+							"value": "demo"
+						},
+						{
+							"key": "sms_invalid_check",
+							"value": "false"
+						},
+						{
+							"key": "autosec",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

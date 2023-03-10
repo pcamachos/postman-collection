@@ -1,0 +1,681 @@
+{
+	"info": {
+		"_postman_id": "9560653e-583a-4bbc-a3d0-a9e7733e72b9",
+		"name": "SMS responses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SMS response Fiorella",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/smsresponses/?org=fiorella&ToCountry=us&ToState=\"\"&SmsMessageSid=sm71de8070acc17fdcee92e6fd85f522da&NumMedia=0&ToCity=\"\"&FromZip=\"\"&SmsSid=sm71de8070acc17fdcee92e6fd85f522da&OptOutType=stop&FromState=fl&SmsStatus=received&FromCity=\"\"&Body=hola fiorella&FromCountry=us&To=97418&MessagingServiceSid=mg9d38edac60ed9d6934c01945b8951dff&ToZip=\"\"&NumSegments=1&MessageSid=sm71de8070acc17fdcee92e6fd85f522da&AccountSid=acff46a5266108b011b448c0145f1c9f79&From=7723033921&ApiVersion=2010-04-01",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"smsresponses",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "fiorella"
+						},
+						{
+							"key": "ToCountry",
+							"value": "us"
+						},
+						{
+							"key": "ToState",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsMessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "NumMedia",
+							"value": "0"
+						},
+						{
+							"key": "ToCity",
+							"value": "\"\""
+						},
+						{
+							"key": "FromZip",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "OptOutType",
+							"value": "stop"
+						},
+						{
+							"key": "FromState",
+							"value": "fl"
+						},
+						{
+							"key": "SmsStatus",
+							"value": "received"
+						},
+						{
+							"key": "FromCity",
+							"value": "\"\""
+						},
+						{
+							"key": "Body",
+							"value": "hola fiorella"
+						},
+						{
+							"key": "FromCountry",
+							"value": "us"
+						},
+						{
+							"key": "To",
+							"value": "97418"
+						},
+						{
+							"key": "MessagingServiceSid",
+							"value": "mg9d38edac60ed9d6934c01945b8951dff"
+						},
+						{
+							"key": "ToZip",
+							"value": "\"\""
+						},
+						{
+							"key": "NumSegments",
+							"value": "1"
+						},
+						{
+							"key": "MessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "AccountSid",
+							"value": "acff46a5266108b011b448c0145f1c9f79"
+						},
+						{
+							"key": "From",
+							"value": "7723033921"
+						},
+						{
+							"key": "ApiVersion",
+							"value": "2010-04-01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SMS response Fiorella-oos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/smsresponses/?org=fiorella-oos&ToCountry=us&ToState=\"\"&SmsMessageSid=sm71de8070acc17fdcee92e6fd85f522da&NumMedia=0&ToCity=\"\"&FromZip=\"\"&SmsSid=sm71de8070acc17fdcee92e6fd85f522da&OptOutType=stop&FromState=fl&SmsStatus=received&FromCity=\"\"&Body=hola fiorella&FromCountry=us&To=8338950768&MessagingServiceSid=mg9d38edac60ed9d6934c01945b8951dff&ToZip=\"\"&NumSegments=1&MessageSid=sm71de8070acc17fdcee92e6fd85f522da&AccountSid=acff46a5266108b011b448c0145f1c9f79&From=7723033921&ApiVersion=2010-04-01",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"smsresponses",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "fiorella-oos"
+						},
+						{
+							"key": "ToCountry",
+							"value": "us"
+						},
+						{
+							"key": "ToState",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsMessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "NumMedia",
+							"value": "0"
+						},
+						{
+							"key": "ToCity",
+							"value": "\"\""
+						},
+						{
+							"key": "FromZip",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "OptOutType",
+							"value": "stop"
+						},
+						{
+							"key": "FromState",
+							"value": "fl"
+						},
+						{
+							"key": "SmsStatus",
+							"value": "received"
+						},
+						{
+							"key": "FromCity",
+							"value": "\"\""
+						},
+						{
+							"key": "Body",
+							"value": "hola fiorella"
+						},
+						{
+							"key": "FromCountry",
+							"value": "us"
+						},
+						{
+							"key": "To",
+							"value": "8338950768"
+						},
+						{
+							"key": "MessagingServiceSid",
+							"value": "mg9d38edac60ed9d6934c01945b8951dff"
+						},
+						{
+							"key": "ToZip",
+							"value": "\"\""
+						},
+						{
+							"key": "NumSegments",
+							"value": "1"
+						},
+						{
+							"key": "MessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "AccountSid",
+							"value": "acff46a5266108b011b448c0145f1c9f79"
+						},
+						{
+							"key": "From",
+							"value": "7723033921"
+						},
+						{
+							"key": "ApiVersion",
+							"value": "2010-04-01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SMS response lookout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/smsresponses/?org=lookout&ToCountry=us&ToState=\"\"&SmsMessageSid=sm71de8070acc17fdcee92e6fd85f522da&NumMedia=0&ToCity=\"\"&FromZip=\"\"&SmsSid=sm71de8070acc17fdcee92e6fd85f522da&OptOutType=stop&FromState=fl&SmsStatus=received&FromCity=\"\"&Body=hola fiorella&FromCountry=us&To=8555930789&MessagingServiceSid=mg9d38edac60ed9d6934c01945b8951dff&ToZip=\"\"&NumSegments=1&MessageSid=sm71de8070acc17fdcee92e6fd85f522da&AccountSid=acff46a5266108b011b448c0145f1c9f79&From=7723033921&ApiVersion=2010-04-01",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"smsresponses",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "lookout"
+						},
+						{
+							"key": "ToCountry",
+							"value": "us"
+						},
+						{
+							"key": "ToState",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsMessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "NumMedia",
+							"value": "0"
+						},
+						{
+							"key": "ToCity",
+							"value": "\"\""
+						},
+						{
+							"key": "FromZip",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "OptOutType",
+							"value": "stop"
+						},
+						{
+							"key": "FromState",
+							"value": "fl"
+						},
+						{
+							"key": "SmsStatus",
+							"value": "received"
+						},
+						{
+							"key": "FromCity",
+							"value": "\"\""
+						},
+						{
+							"key": "Body",
+							"value": "hola fiorella"
+						},
+						{
+							"key": "FromCountry",
+							"value": "us"
+						},
+						{
+							"key": "To",
+							"value": "8555930789"
+						},
+						{
+							"key": "MessagingServiceSid",
+							"value": "mg9d38edac60ed9d6934c01945b8951dff"
+						},
+						{
+							"key": "ToZip",
+							"value": "\"\""
+						},
+						{
+							"key": "NumSegments",
+							"value": "1"
+						},
+						{
+							"key": "MessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "AccountSid",
+							"value": "acff46a5266108b011b448c0145f1c9f79"
+						},
+						{
+							"key": "From",
+							"value": "7723033921"
+						},
+						{
+							"key": "ApiVersion",
+							"value": "2010-04-01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SMS response univista",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/smsresponses/?org=univista&ToCountry=us&ToState=\"\"&SmsMessageSid=sm71de8070acc17fdcee92e6fd85f522da&NumMedia=0&ToCity=\"\"&FromZip=\"\"&SmsSid=sm71de8070acc17fdcee92e6fd85f522da&OptOutType=stop&FromState=fl&SmsStatus=received&FromCity=\"\"&Body=hola univista&FromCountry=us&To=7867550787&MessagingServiceSid=mg9d38edac60ed9d6934c01945b8951dff&ToZip=\"\"&NumSegments=1&MessageSid=sm71de8070acc17fdcee92e6fd85f522da&AccountSid=acff46a5266108b011b448c0145f1c9f79&From=7728888016&ApiVersion=2010-04-01",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"smsresponses",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "univista"
+						},
+						{
+							"key": "ToCountry",
+							"value": "us"
+						},
+						{
+							"key": "ToState",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsMessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "NumMedia",
+							"value": "0"
+						},
+						{
+							"key": "ToCity",
+							"value": "\"\""
+						},
+						{
+							"key": "FromZip",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "OptOutType",
+							"value": "stop"
+						},
+						{
+							"key": "FromState",
+							"value": "fl"
+						},
+						{
+							"key": "SmsStatus",
+							"value": "received"
+						},
+						{
+							"key": "FromCity",
+							"value": "\"\""
+						},
+						{
+							"key": "Body",
+							"value": "hola univista"
+						},
+						{
+							"key": "FromCountry",
+							"value": "us"
+						},
+						{
+							"key": "To",
+							"value": "7867550787"
+						},
+						{
+							"key": "MessagingServiceSid",
+							"value": "mg9d38edac60ed9d6934c01945b8951dff"
+						},
+						{
+							"key": "ToZip",
+							"value": "\"\""
+						},
+						{
+							"key": "NumSegments",
+							"value": "1"
+						},
+						{
+							"key": "MessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "AccountSid",
+							"value": "acff46a5266108b011b448c0145f1c9f79"
+						},
+						{
+							"key": "From",
+							"value": "7728888016"
+						},
+						{
+							"key": "ApiVersion",
+							"value": "2010-04-01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SMS response pbc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/smsresponses/?org=progressive-business-capital&ToCountry=us&ToState=\"\"&SmsMessageSid=sm71de8070acc17fdcee92e6fd85f522da&NumMedia=0&ToCity=\"\"&FromZip=\"\"&SmsSid=sm71de8070acc17fdcee92e6fd85f522da&OptOutType=stop&FromState=fl&SmsStatus=received&FromCity=\"\"&Body=hola pbc&FromCountry=us&To=7547049064&MessagingServiceSid=mg9d38edac60ed9d6934c01945b8951dff&ToZip=\"\"&NumSegments=1&MessageSid=sm71de8070acc17fdcee92e6fd85f522da&AccountSid=acff46a5266108b011b448c0145f1c9f79&From=7728888016&ApiVersion=2010-04-01",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"smsresponses",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "progressive-business-capital"
+						},
+						{
+							"key": "ToCountry",
+							"value": "us"
+						},
+						{
+							"key": "ToState",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsMessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "NumMedia",
+							"value": "0"
+						},
+						{
+							"key": "ToCity",
+							"value": "\"\""
+						},
+						{
+							"key": "FromZip",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "OptOutType",
+							"value": "stop"
+						},
+						{
+							"key": "FromState",
+							"value": "fl"
+						},
+						{
+							"key": "SmsStatus",
+							"value": "received"
+						},
+						{
+							"key": "FromCity",
+							"value": "\"\""
+						},
+						{
+							"key": "Body",
+							"value": "hola pbc"
+						},
+						{
+							"key": "FromCountry",
+							"value": "us"
+						},
+						{
+							"key": "To",
+							"value": "7547049064"
+						},
+						{
+							"key": "MessagingServiceSid",
+							"value": "mg9d38edac60ed9d6934c01945b8951dff"
+						},
+						{
+							"key": "ToZip",
+							"value": "\"\""
+						},
+						{
+							"key": "NumSegments",
+							"value": "1"
+						},
+						{
+							"key": "MessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "AccountSid",
+							"value": "acff46a5266108b011b448c0145f1c9f79"
+						},
+						{
+							"key": "From",
+							"value": "7728888016"
+						},
+						{
+							"key": "ApiVersion",
+							"value": "2010-04-01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SMS response demo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/smsresponses/?org=demo&ToCountry=us&ToState=\"\"&SmsMessageSid=sm71de8070acc17fdcee92e6fd85f522da&NumMedia=0&ToCity=\"\"&FromZip=\"\"&SmsSid=sm71de8070acc17fdcee92e6fd85f522da&OptOutType=stop&FromState=fl&SmsStatus=received&FromCity=\"\"&Body=hola pbc&FromCountry=us&To=7722911196&MessagingServiceSid=mg9d38edac60ed9d6934c01945b8951dff&ToZip=\"\"&NumSegments=1&MessageSid=sm71de8070acc17fdcee92e6fd85f522da&AccountSid=acff46a5266108b011b448c0145f1c9f79&From=7728888016&ApiVersion=2010-04-01",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"smsresponses",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "demo"
+						},
+						{
+							"key": "ToCountry",
+							"value": "us"
+						},
+						{
+							"key": "ToState",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsMessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "NumMedia",
+							"value": "0"
+						},
+						{
+							"key": "ToCity",
+							"value": "\"\""
+						},
+						{
+							"key": "FromZip",
+							"value": "\"\""
+						},
+						{
+							"key": "SmsSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "OptOutType",
+							"value": "stop"
+						},
+						{
+							"key": "FromState",
+							"value": "fl"
+						},
+						{
+							"key": "SmsStatus",
+							"value": "received"
+						},
+						{
+							"key": "FromCity",
+							"value": "\"\""
+						},
+						{
+							"key": "Body",
+							"value": "hola pbc"
+						},
+						{
+							"key": "FromCountry",
+							"value": "us"
+						},
+						{
+							"key": "To",
+							"value": "7722911196"
+						},
+						{
+							"key": "MessagingServiceSid",
+							"value": "mg9d38edac60ed9d6934c01945b8951dff"
+						},
+						{
+							"key": "ToZip",
+							"value": "\"\""
+						},
+						{
+							"key": "NumSegments",
+							"value": "1"
+						},
+						{
+							"key": "MessageSid",
+							"value": "sm71de8070acc17fdcee92e6fd85f522da"
+						},
+						{
+							"key": "AccountSid",
+							"value": "acff46a5266108b011b448c0145f1c9f79"
+						},
+						{
+							"key": "From",
+							"value": "7728888016"
+						},
+						{
+							"key": "ApiVersion",
+							"value": "2010-04-01"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

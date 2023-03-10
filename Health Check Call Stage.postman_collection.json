@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "1bd53ac4-8093-4411-9e37-4790ca59adda",
+		"name": "Health Check Call Stage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "call click",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone_number\": \"2399321956\",\n    \"extension\": \"207\",\n    \"caller_id\": \"7728888892\",\n    \"press_one\": \"False\",\n    \"local_presence\": true,\n    \"user_id\": \"spartaadmin\",\n    \"campaign_name\": \"test\",\n    \"campaign_id\": \"test\",\n    \"lead_id\": \"a3682882-60f0-46d1-b228-7150a494c071\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/callclick/?org=fiorella",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"callclick",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "fiorella"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "call overnight",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone_number\": \"7863866079\",\n    \"extension\": \"5004\",\n    \"ext_press_one\": \"3100\",\n    \"recording\": \"0001pcrystalnewoeppress1few_dayspress1di10282020.wav\",\n    \"voicemail_detection\": true,\n    \"voicemail_recording\": \"001avd_rmkt_crystal_several_options_090222mm_voiceover.wav\",\n    \"caller_id\": \"7728888892\",\n    \"press_one\": \"True\",\n    \"local_presence\": true,\n    \"user_id\": \"spartaadmin\",\n    \"lead_id\": \"44b16627-ebad-4a27-aef6-d38cc139b7aa\",\n    \"bucket\": \"local presence aa (new)\",\n    \"campaign_id\": \"a69a7e48-708f-4a6a-9091-d639edf478d7\",\n    \"campaign_name\": \"call after hours health\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/callovernight/?org=fiorella",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"callovernight",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "fiorella"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "call auto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone_number\": \"7863866079\",\n    \"extension\": \"5004\",\n    \"ext_press_one\": \"3100\",\n    \"recording\": \"0001pcrystalnewoeppress1few_dayspress1di10282020.wav\",\n    \"voicemail_detection\": true,\n    \"voicemail_recording\": \"001avd_rmkt_crystal_several_options_090222mm_voiceover.wav\",\n    \"caller_id\": \"7728888892\",\n    \"press_one\": \"True\",\n    \"local_presence\": true,\n    \"user_id\": \"spartaadmin\",\n    \"lead_id\": \"44b16627-ebad-4a27-aef6-d38cc139b7aa\",\n    \"bucket\": \"local presence ab (rmkt)\",\n    \"campaign_id\": \"a69a7e48-708f-4a6a-9091-d639edf478d7\",\n    \"campaign_name\": \"call office hours health\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/callauto/?org=fiorella",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"callauto",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "fiorella"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "call now",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone_number\": \"7863866079\",\n    \"extension\": \"207\",\n    \"caller_id\": \"7728888892\",\n    \"press_one\": \"False\",\n    \"local_presence\": true,\n    \"user_id\": \"spartaadmin\",\n    \"campaign_name\": \"call now campaign\",\n    \"campaign_id\": \"test\",\n    \"lead_id\": \"test\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/callnow/?org=fiorella",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"callnow",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "fiorella"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "call predictive",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone_number\": \"7863866079\",\n    \"extension\": \"207\",\n    \"caller_id\": \"7728888892\",\n    \"press_one\": \"False\",\n    \"local_presence\": true,\n    \"user_id\": \"spartaadmin\",\n    \"campaign_name\": \"test\",\n    \"campaign_id\": \"test\",\n    \"lead_id\": \"test\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/callpredictive/?org=fiorella",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"callpredictive",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "fiorella"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "call power",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone_number\": \"7863866079\",\n    \"extension\": \"5004\",\n    \"ext_press_one\": \"3100\",\n    \"recording\": \"0001pcrystalnewoeppress1few_dayspress1di10282020.wav\",\n    \"voicemail_detection\": true,\n    \"voicemail_recording\": \"001avd_rmkt_crystal_several_options_090222mm_voiceover.wav\",\n    \"caller_id\": \"7728888892\",\n    \"press_one\": \"True\",\n    \"local_presence\": true,\n    \"user_id\": \"spartaadmin\",\n    \"lead_id\": \"44b16627-ebad-4a27-aef6-d38cc139b7aa\",\n    \"bucket\": \"local presence ab (rmkt)\",\n    \"campaign_id\": \"deeb3316-6d20-44c3-9aae-a925560e5c35\",\n    \"campaign_name\": \"functional testing translations power\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://internal.staging.spartanapproach.com/callpower/?org=fiorella",
+					"protocol": "https",
+					"host": [
+						"internal",
+						"staging",
+						"spartanapproach",
+						"com"
+					],
+					"path": [
+						"callpower",
+						""
+					],
+					"query": [
+						{
+							"key": "org",
+							"value": "fiorella"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
